@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <bgsound src="music.mp3" loop="1" volume="-1000" balance="0" />
+        <style>
+        body{
+            border:5px solid #d4d6d8;
+        }
+
+        div#cv_header{     
+            font-weight:bold;
+            font-color:white;
+            background-color:#3a68af;
+            text-align:center;
+            font-family:Tahoma;
+            font-size:28px;
+            padding:20px;
+        }
+        
+        div#cv_body_container{ 
+            width:100%;
+            display:table;
+            text-align:center;
+        }
+        
+        div#cv_leftmenu{ 
+            width:150px;
+            display:table-cell;
+            padding:10px;
+
+            background: #eff1f2; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(left, #3a68af, #eff1f2); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(left, #3a68af, #eff1f2); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(left, #3a68af, #eff1f2); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(left, #3a68af, #eff1f2); /* Standard syntax */
+        }
+        div#cv_leftmenu img{
+            width:140px;
+            border:5px solid #d4d6d8;
+            align:center;
+        }
+        div#cv_leftmenu li{
+            color:white;
+        }
+        div#cv_leftmenu li a{
+            color:#26034c;
+            font-family:Tahoma;
+            font-size:12px;
+        }
+        .hobby{
+            border-radius: 25px;
+            border: 0px solid;
+            color: white;
+            margin:4px;
+            font-family:Tahoma;
+            font-size:10px;
+        }
+        .hobby1{
+            background-color:red;
+        }
+        .hobby2{
+            background-color:#fc8d16;
+        }
+        .hobby3{
+            background-color:green;
+        }
+
+        div#cv_body{ 
+            display:table-cell;
+            vertical-align:top;
+            text-align:left;
+
+            padding:10px;
+
+            background: #96baf2; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(right, #96baf2, #eff1f2); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(right, #96baf2, #eff1f2); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(right, #96baf2, #eff1f2); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(right, #96baf2, #eff1f2); /* Standard syntax */
+
+            font-family:Tahoma;
+            font-size:18px;
+        }
+    </style>
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <div id="cv_header">
+        <font color="white">Curriculum Vitae</font>
+    </div>
+
+    <div id="cv_body_container">
+        <div id="cv_leftmenu">
+            <img src="nat.jpg" />
+            <div><big><strong>Gruzinova</strong></big></div>
+            <div><big><strong>Natalya</strong></big></div>
+            <hr size="3" color="#ffffff">
+            <div><ins><em><font face="arial" color="white">Hobbies:</font></em></ins></div>  
+            <div class="hobby hobby1">Reading</div>
+            <div class="hobby hobby2">Sport</div>
+            <div class="hobby hobby3">Travelling</div>
+            <br/>
+            <div><ins><em><font face="arial" color="white">Contacts:</font></em></ins></div>
+            <ul>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+            </ul>
+        </div>
+        <div id="cv_body">
+            <div><big><strong><font color="darkblue">Date of Birth:</font></strong></big></div>
+            <div><em><font face="arial"color="blue" >16-th of August</font></em></div>  
+            <div><big><strong><font color="darkblue">City of Birth:</font></strong></big></div>
+            <div><em><font face="arial"color="blue" >Donetsk</font></em></div> 
+            <hr color="#0000ff">
+            <div><big><strong><font color="darkblue">Soft Skills:</font></strong></big></div>
+            <div><em><font face="arial"color="blue" >- HTML</font></em></div>  
+            <div><em><font face="arial"color="blue" >- JavaScript</font></em></div>  
+            <div><em><font face="arial"color="blue" >- SQL</font></em></div>  
+            <hr color="#0000ff">
+            <div><big><strong><font color="darkblue">About me:</font></strong></big>
+            </div>
+            <div><em><font face="arial"color="blue" >- I do not smoke</font></em></div>  
+            <div><em><font face="arial"color="blue">- I do not drink</font></em></div> 
+            <br>
+            <embed src="music.mp3" autostart="true" hidden="false" loop="false" width="300" height="65" align="bottom"> </embed>
+        </div>
+    </div>
+</body>
+</html>
